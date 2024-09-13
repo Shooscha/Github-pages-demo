@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Source-Serif-4", "Times New Roman";
+    font-size: 18px;
+    text-align: center;
+    background-color: #f2f2f2;
+  }
+
+  body.dark {
+    background-color: #212529;
+  }
+
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .header {
+    display: flex;
+    background-color: white;
+    padding: 25px;
+    position: relative;
+  }
+
+.theme-toggler {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+
+  .navigation {
+    display: flex;
+    background-color: #fff;
+  }
+
+  .navigation__item {
+    font-size: 18px;
+  }
+
+  .navigation__item:not(:last-child) {
+    margin-right: 50px;
+  }
+
+
+  .page-footer {
+    background-color: white;
+  }
+
+  .about-me {
+    padding: 100px 300px 300px;
+    background-color: #faebd7;
+    background-image: url(../images/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .title {
+    margin-bottom: 50px;
+  }
+
+  .hobbies {
+    padding: 50px 0 0;
+    background-color: white;
+  }
+
+  .hobbies .title {
+    margin-left: 50px;
+  }
+
+  .hobbies-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+  }
+
+  .hobbies-list__item {
+    width: 400px;
+    padding: 150px 50px;
+    text-align: center;
+  }
+
+  .hobbies-list__item:hover {
+    opacity: 0.5;
+  }
+  .hobbies-list__item:nth-child(1) {
+    background-image: url(../images/yoga.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hobbies-list__item:nth-child(2) {
+    background-image: url(../images/travel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .hobbies-list__item:nth-child(3) {
+    background-image: url(../images/cooking.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .subtitle {
+    background-color: rgba(242,242,242, 0.8);
+    border-radius: 15px;
+  }
+
+  .contacts {
+    margin: 20px 0 20px;
+  }
+
+  .contacts__item {
+    display: inline-block;
+  }
+
+  .contacts a:not(:last-child) {
+    margin-right: 30px;
+}
